@@ -1,0 +1,12 @@
+/diagrams/img/*.png
+/diagrams/*.bkp
+/diagrams/*.dtmp
+/diagrams/*.drawio
+
+/output/*.aux
+/output/*.log
+/output/*.pdf
+
+/*.tex
+
+/.idea/

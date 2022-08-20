@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  drawio_and_latex:
+    build: .
+    image: drawio-and-latex:latest
+    working_dir: "/data"
+    tty: false
+    container_name: drawio_and_latex
+    volumes:
+      - "../:/data"
